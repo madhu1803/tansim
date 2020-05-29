@@ -67,7 +67,7 @@ body {
 
 .tansim-right-container .tansim-right-form {
     width: 600px;
-    margin: 120px auto;
+    margin: 120px 100px;
 }
 
 .tansim-right-container .tansim-right-form h4 {
@@ -85,7 +85,7 @@ body {
 
 ::placeholder {
     color: #CCCCCC !important;
-    font-size: 15px;
+    font-size: 13px;
 
 }
 
