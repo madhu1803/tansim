@@ -20,6 +20,7 @@ body {
 
 .tansim-left-container .tansim-left-header {
     margin-top: 50px;
+    padding: 0 50px !important;
 }
 
 .tansim-left-container .tansim-left-header h6 {
@@ -42,8 +43,6 @@ body {
     color: white;
 }
 
-.tansim-left-container .tansim-left-footer p {}
-
 .tansim-left-container .tansim-left-footer a {
     color: white;
     text-decoration: underline;
@@ -52,12 +51,43 @@ body {
 
 
 
-
-
-
-
 /* ----------------------------------------------------Right Box------------------------------------------------------------ */
 .tansim-right-container {
     width: 60%;
-    background-color: blue;
+    background-color: white;
+    position: relative;
+}
+
+.tansim-right-container .tansim-right-form {
+    width: 600px;
+    margin: 140px auto;
+    /* position: absolute; */
+}
+
+.tansim-right-container .tansim-right-form h4 {
+    color: #535353;
+    margin-bottom: 40px;
+}
+
+.tansim-right-container .tansim-right-form input {
+    background-color: #FCFCFC !important;
+    height: 50px !important;
+}
+
+::placeholder {
+    color: #CCCCCC !important;
+    font-size: 15px;
+
+}
+
+.tansim-right-container .tansim-right-form button {
+    background-color: #3B87F6 !important;
+    opacity: 0.9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tansim-right-container .tansim-right-form button:hover {
+    background-color: #3B87F6 !important;
+    opacity: 1;
 }
