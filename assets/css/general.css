@@ -72,7 +72,10 @@ body {
 
 .tansim-right-container .tansim-right-form h4 {
     color: #535353;
-    margin-bottom: 40px;
+}
+
+.tansim-right-container .tansim-right-form p {
+    font-size: 21px;
 }
 
 .tansim-right-container .tansim-right-form input {
