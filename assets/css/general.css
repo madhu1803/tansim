@@ -3,7 +3,7 @@ body {
     height: 100%;
 }
 
-.main-box {
+.main-container {
     height: 100%;
     width: 100%;
     display: flex;
@@ -11,10 +11,44 @@ body {
 }
 
 /* ----------------------------------------------------Left Box------------------------------------------------------------ */
-.left-box {
+.tansim-left-container {
     width: 40%;
-    background-color: aqua;
+    background-color: #2B377A;
+    padding: 56px 24px 24px;
+    position: relative;
 }
+
+.tansim-left-container .tansim-left-header {
+    margin-top: 50px;
+}
+
+.tansim-left-container .tansim-left-header h6 {
+    color: white;
+    font-size: 1.50rem !important;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.tansim-left-container .tansim-left-header h5 {
+    color: #6AE2FA;
+    text-align: center;
+    font-size: 1.90rem !important;
+}
+
+.tansim-left-container .tansim-left-footer {
+    position: absolute;
+    bottom: 120px;
+    left: 150px;
+    color: white;
+}
+
+.tansim-left-container .tansim-left-footer p {}
+
+.tansim-left-container .tansim-left-footer a {
+    color: white;
+    text-decoration: underline;
+}
+
 
 
 
@@ -23,7 +57,7 @@ body {
 
 
 /* ----------------------------------------------------Right Box------------------------------------------------------------ */
-.right-box {
+.tansim-right-container {
     width: 60%;
     background-color: blue;
 }
