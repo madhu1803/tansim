@@ -54,6 +54,19 @@ body {
     }
 }
 
+/* tablets */
+@media (min-width: 576px) and (max-width:768px) {
+
+    .tansim-left-container .tansim-left-footer {
+        position: absolute;
+        top: 600px;
+        left: 10%;
+        color: white;
+    }
+
+
+}
+
 /* ----------------------------------------------------Right Box------------------------------------------------------------ */
 .col-md-8.tansim-right-container {
     height: 100vh;
