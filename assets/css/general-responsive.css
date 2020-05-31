@@ -47,7 +47,12 @@ body {
     text-decoration: underline;
 }
 
-
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .col-md-4.tansim-left-container {
+        display: none;
+    }
+}
 
 /* ----------------------------------------------------Right Box------------------------------------------------------------ */
 .col-md-8.tansim-right-container {
@@ -98,17 +103,32 @@ body {
     opacity: 1;
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 1068px) {
+/* mobile phones  */
+@media (max-width: 576px) {
+
+    .main-container {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
 
     .tansim-right-container .tansim-right-form {
-        padding: 15%;
+        padding: 30% 10%;
     }
-}
 
-/*  Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
-    .col-md-4.tansim-left-container {
-        display: none;
+    .tansim-right-container .tansim-right-form input {
+        width: 100%;
+    }
+
+    .tansim-right-container .tansim-right-form button {
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .tansim-right-container .close-btn {
+        position: absolute;
+        right: 10%;
+        top: 5%;
     }
 }
